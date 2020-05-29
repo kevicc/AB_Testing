@@ -22,7 +22,8 @@ b = b_converted/b_total
 c = (a_converted + b_converted) / (a_total + b_total)
 
 z_score_num = (a-b) 
-z_score_dem = c * (1-c) * ( (1/a_total) + (1/b_total) )
+z_score_dem = ((a*(1-a))/a_total) + ((b*(1-b))/b_total) 
+#c * (1-c) * ( (1/a_total) + (1/b_total) ), #assumes equal variances
 z_score_dem = math.sqrt(z_score_dem)
 z_score = z_score_num / z_score_dem
 
