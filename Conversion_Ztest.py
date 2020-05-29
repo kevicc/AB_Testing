@@ -49,5 +49,3 @@ else:
 
 
 
-#using an example from this blog http://juangabrielgomila.com/en/how-to-properly-analyze-an-ab-testing/ to show proof of answer
-
